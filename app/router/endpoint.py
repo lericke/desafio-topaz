@@ -10,7 +10,7 @@ router = APIRouter(prefix="/router", tags=["Router"])
 async def root():
     return {"message": "Hello WOrld"}
 
-@router.get("/gera_relatorio/{nome_usuario}")
+@router.post("/gera_relatorio/{nome_usuario}")
 def detalha_usuario(nome_usuario):
     
     usuario = Github().get_data(nome_usuario)
