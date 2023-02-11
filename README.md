@@ -16,3 +16,7 @@ pip3 install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+
+### Como gerar o relatorio do usuario git.
+
+Acessar o localhost [http://localhost:8000/docs](http://localhost:8000/docs)
