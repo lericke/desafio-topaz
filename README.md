@@ -19,5 +19,5 @@ uvicorn main:app --reload
 
 ### Como gerar o relatorio do usuario git.
 
-Acessar o localhost [http://localhost:8000/docs](http://localhost:8000/docs) e no endpoint /gera_relatorio, passar o username do perfil do github para qual desejar gerar o relatório, o arquivo do relatório será gerado dentro da pasta raiz do projeto.
+Acessar o localhost [http://localhost:8000/docs](http://localhost:8000/docs) e no endpoint /gera_relatorio, passar o username do perfil do github para qual desejar gerar o relatório, o arquivo do relatório será gerado dentro da pasta app no projeto.
 
