@@ -1,4 +1,4 @@
-from fastapi.responses import FileResponse
+
 
 class Relatorio:
 
@@ -7,7 +7,7 @@ class Relatorio:
         # Dados do Usuario
         
         nome = dados_usuario.get('name')
-        perfil = dados_usuario.get('identificar o que se encaixa melhor em perfil ')
+        perfil = dados_usuario.get('bio')
         numero_repositorios_publicos = dados_usuario.get('public_repos')
         numero_seguidores = dados_usuario.get('followers')
         numeros_seguidos = dados_usuario.get('following')
@@ -15,6 +15,8 @@ class Relatorio:
         filename = f"{username}.txt"
 
         f = open(f"{filename}", "a")
+
+        f.write("RELATÓRIO DE DADOS DE PERFIL DO GITHUB\n")
 
         f.write(f"Nome: {nome}\n")
         f.write(f"Pefil: {perfil}\n")
