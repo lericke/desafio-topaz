@@ -6,10 +6,6 @@ from utils.relatorio import Relatorio
 
 router = APIRouter(prefix="/router", tags=["Router"])
 
-@router.get("/")
-async def root():
-    return {"message": "Hello WOrld"}
-
 @router.post("/gera_relatorio/{nome_usuario}")
 def detalha_usuario(nome_usuario):
     
