@@ -21,3 +21,9 @@ uvicorn main:app --reload
 
 Acessar o localhost [http://localhost:8000/docs](http://localhost:8000/docs) e no endpoint /gera_relatorio, passar o username do perfil do github para qual desejar gerar o relatório, o arquivo do relatório será gerado dentro da pasta app no projeto.
 
+# OBSERVAÇÃO.
+
+Por não possuir experiência com o desenvolvimento de testes, acabei tendo dificuldades na implementação dos mesmo, e não consegui entregar essa etapa completa.
+
+Obrigado pela oportunidade!
+

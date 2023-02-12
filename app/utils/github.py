@@ -1,7 +1,7 @@
 import requests
 
 
-class Github:
+class GitHub:
     
     def get_data(self, username):
 
